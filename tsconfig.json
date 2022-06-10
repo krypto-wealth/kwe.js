@@ -1,0 +1,62 @@
+{
+  "extends": "@open-web3/dev-config/config/tsconfig.json",
+  "exclude": [
+    "build/**/*",
+    "**/build/**/*"
+  ],
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@krypto-wealth/api": [
+        "packages/api/src"
+      ],
+      "@krypto-wealth/api/*": [
+        "packages/api/src/*"
+      ],
+      "@krypto-wealth/types": [
+        "packages/types/src"
+      ],
+      "@krypto-wealth/types/*": [
+        "packages/types/src/*"
+      ],
+      "@krypto-wealth/api-derive": [
+        "packages/api-derive/src"
+      ],
+      "@krypto-wealth/api-derive/*": [
+        "packages/api-derive/src/*"
+      ],
+      "@krypto-wealth/type-definitions": [
+        "packages/type-definitions/src"
+      ],
+      "@krypto-wealth/type-definitions/*": [
+        "packages/type-definitions/src/*"
+      ],
+      "@krypto-wealth/sdk-core": [
+        "packages/sdk-core/src"
+      ],
+      "@krypto-wealth/sdk-core/*": [
+        "packages/sdk-core/src/*"
+      ],
+      "@krypto-wealth/sdk-swap": [
+        "packages/sdk-swap/src"
+      ],
+      "@krypto-wealth/sdk-swap/*": [
+        "packages/sdk-swap/src/*"
+      ],
+      "@krypto-wealth/sdk-loan": [
+        "packages/sdk-loan/src"
+      ],
+      "@krypto-wealth/sdk-loan/*": [
+        "packages/sdk-loan/src/*"
+      ],
+    },
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/@polkadot/ts",
+      "./node_modules/@types"
+    ]
+  }
+}

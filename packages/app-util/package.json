@@ -1,0 +1,17 @@
+{
+  "name": "@krypto-wealth/app-util",
+  "version": "1.1.0",
+  "description": "Utilities to work with Kwe Chain",
+  "author": "Kwe Developers",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": "https://github.com/krypto-wealth/kwe.js.git",
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "bignumber.js": "^9.0.0"
+  }
+}

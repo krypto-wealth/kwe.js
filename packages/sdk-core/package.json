@@ -1,0 +1,30 @@
+{
+  "name": "@krypto-wealth/sdk-core",
+  "version": "1.1.0",
+  "description": "the core of Kwe Chain SDK",
+  "main": "index.js",
+  "author": "Kwe Developers",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": "https://github.com/krypto-wealth/kwe.js.git",
+  "bugs": {
+    "url": "https://github.com/krypto-wealth/kwe.js/issues"
+  },
+  "homepage": "https://github.com/krypto-wealth/kwe.js",
+  "dependencies": {
+    "@polkadot/api": "~6.4.2",
+    "@polkadot/types": "~6.4.2",
+    "@krypto-wealth/api": "^1.1.0",
+    "@krypto-wealth/type-definitions": "^1.1.0",
+    "@types/events": "^3.0.0",
+    "bignumber.js": "^9.0.0",
+    "events": "^3.2.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.161"
+  }
+}
